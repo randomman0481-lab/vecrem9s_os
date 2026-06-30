@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background-image: url(https://i.pinimg.com/1200x/3c/1a/38/3c1a38208a2427cce19facb1ea4f32f1.jpg);
+  background-size: 1250px auto;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+#boxheader {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000;
+  background: #d3d3d3;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: move;
+  user-select: none;
+}
+
+#box {
+  z-index: 10;
+  border: 2px solid #000;
+  width: 500px;
+  border-radius: 16px;
+  padding: 32px 16px 16px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: 10px;
+  background: rgba(0, 0, 0, 0.151);
+  color: #ffffff;
+}
+
+#flex {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  background-color: rgba(26, 81, 153, 0.9);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  padding: 8px 16px;
+  box-sizing: border-box;
+}
+
+.os {
+  margin-left: 16px;
+  font-weight: 700;
+}
+
+#timeElement {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  margin-right: 16px;
+}
